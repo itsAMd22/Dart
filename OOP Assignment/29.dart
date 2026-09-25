@@ -5,7 +5,6 @@ class Book {
   bool _isIssued = false;
   Book(this.title);
 
-  // Getter to check status
   bool get isIssued => _isIssued;
 
   set isIssued(bool value) => _isIssued = value;
